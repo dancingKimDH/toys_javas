@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
-public class Complex {
-
+public class PollsWithoutMethod {
     public static void main(String[] args) {
 
         Scanner myObj = new Scanner(System.in);
@@ -12,14 +10,12 @@ public class Complex {
                 { "3. 교수는 강의 내용에 대해 전문적 지식이 있었는가?", "전혀 아니다", "아니다", "그렇다", "매우 그렇다" },
                 { "4. 강의 진행 속도는 적절하였는가?", "전혀 아니다", "아니다", "그렇다", "매우 그렇다" }
         };
-
         for (int a = 0; a < polls.length; a = a + 1) {
             System.out.println(polls[a][0]);
 
             for (int b = 1; b < polls[a].length; b = b + 1) {
                 System.out.println(polls[a][b]);
             }
-
             System.out.println("답변: ");
             first[a] = myObj.nextLine();
             System.out.println();
