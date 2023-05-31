@@ -1,19 +1,19 @@
 import java.util.Scanner;
-
+//최솟값을 구합니다
 public class MaxMins {
     public static void main(String[] args) {
-        try {
-            Scanner my = new Scanner(System.in);
-            int first = 0;
-            int second = 0;
-            first = my.nextInt();
-            second = my.nextInt();
-            int answer = Math.max(first, second);
-            // 스캔 받은 두수의 높은 값을 출력하는 코드입니다.
-            System.out.println(answer);
-        } catch (Exception e) {
-            // TODO: handle exception
+        Scanner myObj = new Scanner(System.in);
+        //변수 설정
+        int A = myObj.nextInt();
+        int B = myObj.nextInt();
+        int result = 0;
+        //최솟값 결과 산출하는 조건문 작성
+        if (A > B) {
+            result = B;
+        } else {
+            result = A;
         }
-    }// return 0;
-
+        //조건문 출력
+        System.out.println("최솟값은 " + result + "입니다.");
+    }
 }
