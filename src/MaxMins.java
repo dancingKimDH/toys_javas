@@ -9,6 +9,11 @@ public class MaxMins {
         int resultmax = 0;
         int resultmin = 0;
         //최솟값 결과 산출하는 조건문 작성
+        try {
+            
+      
+            // TODO: handle exception
+        
         if (A > B) {
             resultmin = B;
             resultmax = A;
@@ -19,5 +24,6 @@ public class MaxMins {
         //조건문 출력
         System.out.println("최솟값은 " + resultmin + "입니다.");
         System.out.println("최댓값은 " + resultmax + "입니다.");
-    }
+    } catch (Exception e) {}
+    }  
 }
