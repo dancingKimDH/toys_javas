@@ -9,6 +9,7 @@ public class MaxMins {
         int resultmax = 0;
         int resultmin = 0;
         //최솟값 결과 산출하는 조건문 작성
+        //최댓값 결과 산출하는 조건문 추가 
         if (A > B) {
             resultmin = B;
             resultmax = A;
