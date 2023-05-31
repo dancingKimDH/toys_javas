@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 //최솟값을 구합니다
 public class MaxMins {
     public static void main(String[] args) {
