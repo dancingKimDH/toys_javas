@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class MaxMins {
     public static void main(String[] args) {
         try {
@@ -15,5 +14,4 @@ public class MaxMins {
             // TODO: handle exception
         }
     }// return 0;
-
 }
