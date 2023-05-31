@@ -14,6 +14,7 @@ public class MaxMins {
       
             // TODO: handle exception
         
+        //최댓값 결과 산출하는 조건문 추가 
         if (A > B) {
             resultmin = B;
             resultmax = A;
@@ -27,3 +28,4 @@ public class MaxMins {
     } catch (Exception e) {}
     }  
 }
+
